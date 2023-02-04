@@ -1,0 +1,165 @@
+
+*{font-family:'Barlow', sans-serif;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: fit-content;
+    background: #D0B895 url("fondo.png") no-repeat center center ;
+    background-size: cover;
+}
+
+h1{color: #5C2E24;font-size: 3.5VW;
+    width: auto;
+    position: relative;
+}
+h3{color: #5C2E24; font-size: 2vw;}
+h5{color: #5C2E24; font-size: 1.5vw;}
+
+.presentacion {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#fotopresentacion {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    padding: 1%;
+    border-radius: 200px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+}
+
+#info {
+    width: auto;
+    height: 3.5%;
+    border-left: 15px solid #5C2E24;
+    padding: 3%;
+    position: relative;
+    margin-top: 3.5%;
+    margin-left: 5%;
+}
+
+#formacion {
+    width: auto;
+    border-left: 15px solid #5C2E24;
+    padding: 10px;
+}
+
+#experiencia {
+    width: auto;
+    border-left: 15px solid #5C2E24;
+    padding: 10px;
+}
+
+#aptitudes {
+    width: auto;
+    border-left: 15px solid #5C2E24;
+    padding: 10px;
+}
+
+.contactar {
+    position: relative;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color:#D0B895 ;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #5C2E24;
+    border-radius: 5px;
+    border-style: dashed ;
+    border-color: #5C2E24;
+} 
+
+form {
+    width: 45%;
+    padding: 2%;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 auto;
+    background-color: #D0B895;
+}
+input{
+    border:transparent #5C2E24;
+    width: 90%;
+    padding: 2%;
+}
+
+textarea {
+    border:transparent #5C2E24;
+    width: 90%;
+    padding: 2%;
+}
+
+#datos {
+    width: 30%;
+    border-left: 15px solid #5C2E24;
+    padding: 3%;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@media (max-width: 600px) { 
+    .presentacion {
+        display: table-row;
+    }
+    #info {
+        padding: 10px;
+        width: auto;
+        margin: 0;}
+    
+    #fotopresentacion{
+    position: relative ;
+    left: 35%;
+    right: 335%;
+    }
+
+    img {
+        width: 3%;
+        height: 3%;
+        padding: 1px;
+        position: relative;
+        top: 1%;
+    }
+
+    .contactar {
+        position: relative;
+        display: block;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 3%;
+        background-color:#D0B895 ;
+        font-size: 1.5vw;
+        font-weight: bold;
+        color: #5C2E24;
+        border-radius: 5px;
+        border-style: dashed ;
+        border-color: #5C2E24;
+    } 
+
+ }
